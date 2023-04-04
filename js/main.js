@@ -1,8 +1,3 @@
-function logpage() {
-    document.querySelector('.btn-logpopup');
-    location.href = 'index.html'
-};
-
 const toggleBtn = document.querySelector('.toggle_btn')
 const toggleBtnIcon = document.querySelector('.toggle_btn i')
 const dropMenu = document.querySelector('.dropmenu')
