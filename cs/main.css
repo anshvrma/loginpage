@@ -215,7 +215,7 @@ header {
     justify-content: space-between;
 }
 
-.remember-forgot label input {
+.remember-forgot label input, .terms {
     accent-color: #fff;
     margin-right: 3px;
 }
