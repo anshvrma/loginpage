@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Training Camp</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='cs/main.css'>
+</head>
+<style>
+	body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('bg/bg1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+</style>
+<body>
+    <header>
+        <div class="navbar">
+            <h2 class="Logo"><a href="#">LOGO</a></h2>
+            <ul class="links">
+                <li><a href="home">Home</a></li> 
+                <li><a href="about">About</a></li> 
+                <li><a href="services">Services</a></li> 
+                <li><a href="contact">Contact</a></li> 
+            </ul>
+            <a href="#" class="action_btn">Log in</a>
+            <div class="toggle_btn"><ion-icon name="grid-outline"></ion-icon></div>
+        </div>
+        <div class="dropmenu">
+            <li><a href="home">Home</a></li> 
+            <li><a href="about">About</a></li> 
+            <li><a href="services">Services</a></li> 
+            <li><a href="contact">Contact</a></li>
+            <li><a href="#" class="action_btn" onclick="logpage()">Log in</a></li>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span></span>
+
+        <div class="form-boxreg">
+            <h2>Sign Up</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="username" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="key"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Set new Password</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="Key"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Confirm your password</label>
+                </div>
+                <div class="terms">
+                    <label><input type="checkbox" required> I Agree to the Terms & conditions.</label>
+                </div>
+                <button type="submit" class="btn-submit">Sign Up</button>
+                <div class="login-register">
+                    <p>Already have an account?<a href="index.html" class="login-link"> Log in</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>    
+</body>
+</html>
